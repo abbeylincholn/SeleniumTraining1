@@ -1,0 +1,1 @@
+{"uuid":"9263e8b3-06ec-4462-85fa-7b06d94e7b3b","name":"com.test.testng.PS1.AfterRun","children":["82f80d98-0f3b-4874-8c6c-76be07bd1694"],"description":"","befores":[],"afters":[{"name":"AfterRun","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1745984249056,"stop":1745984249056}],"start":1745984249056,"stop":1745984249056}

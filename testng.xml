@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department" parallel="tests" thread-count="6">
+    <listeners>
+        <listener class-name="com.test.testng.Listeners"/>
+    </listeners>
+    <parameter name="url" value="qaclickacademy.com"/>
+
+    <test name="Personal Loan" >
+        <parameter name="url" value="personalloan.com"/>
+        <parameter name="APIKey/username" value="123456"/>
+        <classes>
+            <class name="com.test.testng.Day1"/>
+            <class name="com.test.testng.Day2"/>
+            <class name="com.test.testng.Day4"/>
+        </classes>
+    </test>
+
+    <test name="Car Loan" >
+        <parameter name="url" value="carloan.com"/>
+        <classes>
+            <class name="com.test.testng.Day3">
+                <!--<methods>
+                    <exclude name="API.*"/>
+                </methods>-->
+            </class>
+        </classes>
+    </test>
+
+    <!--<test name="Home Loan">
+        <classes>
+            <class name="com.test.testng.Day4">
+                <methods>
+                    <include name="webLoginHomeLoan"/>
+                    <include name="mobileLoginHomeLoan"/>
+                    <include name="loginAPICarLoan"/>
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+
+</suite>

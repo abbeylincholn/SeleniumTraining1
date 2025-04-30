@@ -1,0 +1,1 @@
+{"uuid":"8077cb83-1b5e-47c2-8466-f7f23ea44a68","name":"Loan Department","children":["3341e4e2-c4df-425f-9aea-f20547dfa58f"],"befores":[{"name":"BFSuite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1745829778693,"stop":1745829778699}],"afters":[],"start":1745829778673,"stop":1745829778864}
